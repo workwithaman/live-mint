@@ -1,0 +1,174 @@
+.container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    z-index: 4;
+}
+
+.wrapper {
+    width: 80%;
+}
+
+.header {
+    width: 100%;
+    height: 13vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.header.showOff {
+    height: 10vh;
+}
+
+.hamburgerMenu {
+    width: 22%;
+}
+
+.hamburger {
+    width: 9rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.headerLogo img {
+    width: 14rem;
+    height: 5rem;
+}
+
+.headerLogo.small img {
+    width: 12rem;
+}
+
+.headerIcon {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.iconSprite {
+    margin: 0 .5rem;
+    align-self: center;
+}
+
+.iconSprite img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.epaper {
+    border-left: 1px solid #c2bebc;
+    padding: 0 0.5rem;
+    margin: .5rem;
+    transition: all 0.2s;
+}
+
+.epaper:hover {
+    color: #757575;
+}
+
+.headerDate {
+    text-align: right;
+    margin-top: 1rem;
+    transition: all 1s;
+}
+
+.headerDate h5 {
+    color: rgb(97, 97, 97);
+    font-weight: 400;
+}
+
+.headerDate.showOff {
+    display: none;
+}
+
+@media (max-width: 1199.98px) {
+    .container {
+        position: fixed;
+        top: 0;
+        z-index: 4;
+    }
+
+    .header {
+        width: 100%;
+        height: 10vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+    
+    .header.showOff {
+        height: 10vh;
+    }
+    
+    .headerLogo img {
+        width: 12rem;
+        height: 5rem;
+    }
+    
+    .headerLogo.small img {
+        width: 10rem;
+    }
+
+    .iconSprite img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .headerDate {
+        margin-top: .1rem;
+    }
+  }
+  
+  
+  /* for Medium devices such as tablets */
+  @media (max-width: 991.98px) {
+    .wrapper {
+        width: 95%;
+    }
+  }
+  
+  /* Small devices (landscape phone, ) */
+  
+  @media (max-width: 767.98px) {
+    .header {
+        height: 10vh;
+    }
+
+    .headerDate {
+        display: none;
+    }
+
+    .iconSprite {
+        display: none;
+    }
+  }
+  
+  /* Small devices such as phone */
+  
+  @media (max-width: 575.98px) {
+    
+   }

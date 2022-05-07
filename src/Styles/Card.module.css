@@ -1,0 +1,133 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    height: 10rem;
+    background: #fff;
+    border-radius: 1px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.wrapper.active {
+    height: 12rem;
+    margin: .5rem 0;
+    border: none;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left h5 {
+    line-height: 1.8rem;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-top: .8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_p p {
+    font-weight: 400;
+    color: rgb(117,117,117);
+}
+
+.info_p p:first-child {
+    margin-right: 1.4rem;
+}
+
+
+.wrapper.active .info_p p {
+    margin-right: 1.5rem;
+}
+
+.info_p {
+    display: flex;
+    align-items: center;
+}
+
+.info_p img {
+    margin: 0 1rem;
+}
+
+.wrapper.active .info p {
+    font-size: 1.4rem;
+}
+
+.wrapper.active .sub_title h5 {
+    font-size: 1.6rem;
+}
+
+.info img {
+    cursor: pointer;
+}
+
+.right img {
+    margin-left: 1rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: .6rem;
+}
+
+.wrapper.active .right img {
+    margin-left: 1.5rem;
+    width: 8.2rem;
+    height: 8.2rem;
+}
+
+.share_parent {
+    position: relative;
+}
+
+.share_widget {
+    display: none;
+}
+
+.share_widget.active {
+    width: 14rem;
+    height: 6rem;
+    padding: .5rem 1.5rem;
+    position: absolute;
+    bottom: -7rem;
+    left: -7rem;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    justify-content: space-between;
+    box-shadow: 0 7px 13px 0 rgb(0 0 0 / 40%);
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+}
+
+.share_icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.share_icon img {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* for Medium devices such as tablets */
+@media (max-width: 991.98px) {
+   
+}
+
+/* Small devices (landscape phone, ) */
+
+@media (max-width: 767.98px) {
+  
+}
+
+/* Small devices such as phone */
+
+@media (max-width: 575.98px) {
+  
+ }

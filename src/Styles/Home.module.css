@@ -1,0 +1,39 @@
+.container {
+    position: absolute;
+    left: 18%;
+    /* border: 1px dashed green; */
+    width: 50%;
+}
+
+
+@media (max-width: 1199.98px) {
+    .container {
+        top: 12vh;
+        left: 26%;
+        width: 70%;
+    }
+}
+
+/* for Medium devices such as tablets */
+@media (max-width: 991.98px) {
+    .container {
+        left: 26%;
+        width: 72%;
+    }
+}
+
+/* Small devices (landscape phone, ) */
+
+@media (max-width: 767.98px) {
+    .container {
+        left: 0;
+        width: 100%;
+        top: 7vh;
+    }
+}
+
+/* Small devices such as phone */
+
+@media (max-width: 575.98px) {
+  
+ }

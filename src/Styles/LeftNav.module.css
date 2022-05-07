@@ -1,0 +1,111 @@
+.wrapper {
+    position: static;
+    width: 20%;
+}
+
+.left_wrapper {
+    width: 15rem;
+    position: fixed;
+}
+
+.routes {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed #BDBDBD;;
+}
+
+.routes li {
+    margin: .8rem 0;
+    list-style-type: none;
+}
+
+.routes h5 {
+    font-weight: 500;
+    color: #212121;
+    line-height: 2.5rem;
+}
+
+.routes a {
+    display: block;
+}
+
+.links.active {
+    background: #F2E6D9;
+    border-left: 3px solid #ff8a00;
+    color: #151515;
+    font-weight: 700;
+}
+
+.routes a:focus  h5{
+    font-weight: 700;
+}
+
+.routes h5:hover {
+    color: #757575;
+}
+
+@media (max-width: 1199.98px) {
+    .wrapper {
+        position: fixed;
+        top: 18vh;
+        width: 20%;
+    }
+
+    .left_wrapper {
+        width: 18rem;
+        position: fixed;
+    }   
+}
+
+/* for Medium devices such as tablets */
+/* @media (max-width: 991.98px) {
+   
+} */
+
+/* Small devices (landscape phone, ) */
+
+@media (max-width: 767.98px) {
+    .wrapper {
+        position: fixed;
+        top: 10vh;
+        width: 100%;
+        z-index: 4;
+        background: #fff;
+        /* box-shadow: ; */
+    }
+
+    .left_wrapper {
+        width: 100%;
+        position: relative;
+    }
+
+    .routes {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-evenly; */
+        border-bottom: none;
+        border-top: 1px solid #BDBDBD;
+    }
+
+    .routes li {
+        margin: .8rem 1.5rem;
+    }
+
+    .links.active {
+        background: transparent;
+        border-bottom: 2px solid #ff8a00;
+        border-left: none;
+    }
+
+    .links.active h5 {
+        font-weight: 700;
+        color: #ff8a00;
+    }
+    
+}
+
+/* Small devices such as phone */
+
+@media (max-width: 575.98px) {
+  
+ }

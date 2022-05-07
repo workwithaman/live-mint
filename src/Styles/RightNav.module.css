@@ -1,0 +1,42 @@
+.right_wrapper {
+    width: 30%;
+    margin-left: 2rem;
+    /* margin-top: 1.5rem; */
+    float: right;
+}
+
+.title {
+    display: flex;
+    padding: 0 1.5rem;
+    margin-top: 3rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    height: 4rem;
+    border-bottom: 1px solid #dddddd;
+}
+
+@media (max-width: 1199.98px) {
+    .right_wrapper {
+        display: none;
+    }
+        
+}
+
+/* for Medium devices such as tablets */
+@media (max-width: 991.98px) {
+   
+}
+
+/* Small devices (landscape phone, ) */
+
+@media (max-width: 767.98px) {
+  
+}
+
+/* Small devices such as phone */
+
+@media (max-width: 575.98px) {
+  
+ }
